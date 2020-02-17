@@ -135,11 +135,27 @@
             }
         },
         {
+            "Key": "99f50930-957a-4049-a9d3-b8bfbc422ad2",
+            "Value": {
+                "id": "1f388647-ac3c-48f1-95a1-7a29011c82dd",
+                "resourcePath": "sprites\\fey_classes_spr\\fey_classes_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a128950b-5063-4876-b4a6-b99dbd2ea6d1",
             "Value": {
                 "id": "2b984efd-cef1-44bc-be83-2d371cd80ed2",
                 "resourcePath": "options\\amazonfire\\options_amazonfire.yy",
                 "resourceType": "GMAmazonFireOptions"
+            }
+        },
+        {
+            "Key": "a51ed698-a156-4a93-b294-677dae787e24",
+            "Value": {
+                "id": "10e7d0f2-071c-4023-ac7d-de625c68b82f",
+                "resourcePath": "objects\\allied_char\\allied_char.yy",
+                "resourceType": "GMObject"
             }
         },
         {
