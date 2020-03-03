@@ -39,11 +39,27 @@
             }
         },
         {
+            "Key": "149f28d2-0c0a-4a94-941e-0df240091e09",
+            "Value": {
+                "id": "1d26a518-1568-4346-af99-bf96da476c7d",
+                "resourcePath": "sprites\\negs_spr\\negs_spr.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "222973cf-6456-49d4-9ee6-85b8e8347ccf",
             "Value": {
                 "id": "4984b51f-14f6-4f8b-bbac-a098bc315894",
                 "resourcePath": "views\\222973cf-6456-49d4-9ee6-85b8e8347ccf.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "3064c9d6-e057-4ade-bae4-5dc7b1cd738a",
+            "Value": {
+                "id": "d2493b3e-2084-4e37-99b4-e8d975ff38f4",
+                "resourcePath": "fonts\\UI_font\\UI_font.yy",
+                "resourceType": "GMFont"
             }
         },
         {
