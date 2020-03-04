@@ -39,6 +39,22 @@
             }
         },
         {
+            "Key": "04e47d55-9e5e-496b-a47b-ba776c169c70",
+            "Value": {
+                "id": "152422bf-7b79-4a25-a297-fd920ff28781",
+                "resourcePath": "scripts\\draw_rectangle_width\\draw_rectangle_width.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "10b82f1b-ffdd-49d7-8b96-ee4d55331b27",
+            "Value": {
+                "id": "0be8a407-b666-410a-a700-7ac4e17d072d",
+                "resourcePath": "objects\\act_button\\act_button.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "149f28d2-0c0a-4a94-941e-0df240091e09",
             "Value": {
                 "id": "1d26a518-1568-4346-af99-bf96da476c7d",
@@ -59,6 +75,14 @@
             "Value": {
                 "id": "d2493b3e-2084-4e37-99b4-e8d975ff38f4",
                 "resourcePath": "fonts\\UI_font\\UI_font.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "3d6dcd1e-034d-48e0-93db-ed73a185882d",
+            "Value": {
+                "id": "34c1ff8c-53f3-4a02-b291-09d19928018b",
+                "resourcePath": "fonts\\menu_font\\menu_font.yy",
                 "resourceType": "GMFont"
             }
         },
@@ -124,6 +148,14 @@
                 "id": "bf4eb3a8-2b2d-4271-be6b-27e92d1fbebe",
                 "resourcePath": "views\\6a5fadc8-1a7b-42cb-b528-ed29867cba52.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6b740bb1-c9ef-4cf2-b2fc-787c58e30dca",
+            "Value": {
+                "id": "f6b534e0-4757-4f91-91de-663de655df32",
+                "resourcePath": "sprites\\act_button_spr\\act_button_spr.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -199,6 +231,14 @@
             }
         },
         {
+            "Key": "b650c552-1ceb-46c2-b304-3300c5ebd909",
+            "Value": {
+                "id": "b086f019-afe7-4993-9ad4-5c08f6f5da22",
+                "resourcePath": "objects\\opposing_char\\opposing_char.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b94a3fc1-7f69-4d04-a713-6cda51d2102e",
             "Value": {
                 "id": "f1613398-9e14-47a7-ba40-01888ca926ea",
@@ -264,7 +304,7 @@
         }
     ],
     "script_order": [
-        
+        "04e47d55-9e5e-496b-a47b-ba776c169c70"
     ],
     "tutorial": ""
 }

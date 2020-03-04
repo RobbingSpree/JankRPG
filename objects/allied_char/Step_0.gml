@@ -1,7 +1,6 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description 
 
-atb+=spd;
+atb+=spd*global.timescale;
 percent= atb*3.6;
 if atb > 100
 	spd=high_spd;
@@ -12,4 +11,25 @@ if atb<0
 	
 if atb > 200
 	atb=200;
+
+//update time scale if menu is on screen
+if show_menu
+{
+	if !find_target
+	{
+		menu_timeout--;
+		mouse_row = floor((mouse_y-myt)/row_hei);
+	}
+	global.timescale =0.2;
+	
+	if mouse_check_button_pressed(mb_left)
+		find_target= true;
+}
+//close menu if no action for long enough
+if menu_timeout <=0 && show_menu
+{
+	show_menu=false;
+	menu_timeout=0;
+	global.timescale=1;
+}
 
