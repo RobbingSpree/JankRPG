@@ -18,7 +18,8 @@ if show_menu
 	if !find_target
 	{
 		menu_timeout--;
-		mouse_row = floor((mouse_y-myt)/row_hei);
+		if mouse_row<skills_total
+			mouse_row = floor((mouse_y-myt)/row_hei);
 	}
 	global.timescale =0.2;
 	
