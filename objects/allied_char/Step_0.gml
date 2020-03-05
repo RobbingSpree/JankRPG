@@ -18,13 +18,16 @@ if show_menu
 	if !find_target
 	{
 		menu_timeout--;
-		if mouse_row<skills_total
+		if floor((mouse_y-myt)/row_hei)<skills_total
 			mouse_row = floor((mouse_y-myt)/row_hei);
 	}
 	global.timescale =0.2;
 	
 	if mouse_check_button_pressed(mb_left)
+	{
 		find_target= true;
+		act_button.acting = self;
+	}
 }
 //close menu if no action for long enough
 if menu_timeout <=0 && show_menu

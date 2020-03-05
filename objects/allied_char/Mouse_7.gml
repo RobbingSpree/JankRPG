@@ -6,4 +6,5 @@ if !show_menu
 		show_menu=false; //turn off for everyone else
 	show_menu=true;
 	menu_timeout=timeout_max;
+	mouse_row = 0;
 }

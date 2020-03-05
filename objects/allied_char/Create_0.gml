@@ -17,6 +17,7 @@ menu_timeout=0;
 timeout_max=240;
 mouse_row=0;
 find_target=false; //flag to allow player to select a target for a skill
+target = noone;
 global.timescale=1;
 
 //menu layout variables

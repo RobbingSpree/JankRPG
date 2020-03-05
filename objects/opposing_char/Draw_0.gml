@@ -3,6 +3,13 @@
 
 draw_self();
 
+if mouse_over
+{
+	draw_circle(x,y+sprite_height/2,sprite_height,true);
+	draw_line(x,y,x,y+sprite_height);
+	draw_line(x-sprite_width/2,y+sprite_height/2,x+sprite_width/2,y+sprite_height/2)
+}
+
 #region //--Charge Bar
 //draw charge bar
 var i, steps, xx, yy, radius;
